@@ -1,0 +1,13 @@
+@use "./variables";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.highlight {
+  color: variables.$accent-color;
+}
+
+::selection {
+  background-color: rgba($color: #d109d1, $alpha: 0.35);
+}
