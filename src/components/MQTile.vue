@@ -38,8 +38,8 @@ const revert = () => {
       flag = true;
     }
   });
-  if (!flag) {
-    flipper.value = false;
+  if (!flag && flipper.value !== false) {
+    flipper.value = false
   }
 }
 
